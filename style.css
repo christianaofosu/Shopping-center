@@ -1,0 +1,129 @@
+*{
+    font-family: verdana;
+    margin: 0;
+  }
+  
+  body{
+    background: #eee;
+  }
+  
+  .wrapper{
+    width: 100%;
+    max-width: 1800px;
+    margin: 0 auto;
+  }
+  
+  /* menu base styles */
+  
+  nav{
+    background: #333;
+  }
+  
+  nav ul{
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav a{
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    display: block;
+    padding: 10px;
+  }
+  
+  nav a:hover{
+    background-color: #555;
+  }
+
+  .social a{
+    text-indent: -10px;
+  }
+  
+  .social{
+    max-width: 140px;
+    margin: 0 auto;
+  }
+
+  nav ul.social{
+    flex: 1 1 0;
+    display: flex;
+  }
+  
+  nav ul.social li{
+    flex: 1 1 0;
+  }
+
+  .banner{
+    position: relative;
+    text-align: center;
+  }
+  .banner img{
+    max-width: 100%;
+  }
+  
+   .Shopping{
+    display: flex;
+    
+   }
+
+   .Shopping img{
+    text-align: center;
+    margin: 80px 0;
+    white-space: nowrap;
+  }
+  .Shopping img{ 
+    display: inline-block;
+    list-style-type: none;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+  }
+  .Shopping img:hover{
+    top: -10px;
+  }
+  .Shopping img{
+    max-width: 100%;
+  }
+
+  @media screen and (min-width: 320px){
+
+    nav ul{
+      display: flex;
+    }
+    
+    nav li{
+        flex: 1 1 0;
+    }
+      
+    nav{
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    .social{
+      margin: 0;
+    }
+    @media screen and (min-width: 760px){
+
+        nav ul{
+          display: flex;
+        }
+        
+        nav li{
+            flex: 1 1 0;
+        }
+          
+        nav{
+          display: flex;
+          justify-content: space-between;
+         
+        }
+        
+        .social{
+          margin: 0;
+        }
+
+       }/* end media 768 */
+
+     }
